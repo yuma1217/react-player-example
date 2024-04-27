@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <p>動画</p>
-      <ReactPlayer url="/free_sample_video.mp4" />
+      <ReactPlayer url="/free_sample_video.mp4" width="100%" height="100%" />
     </div>
   );
 }
