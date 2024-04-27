@@ -1,5 +1,6 @@
 "use client";
 import SeekBar from "@/component/seekbar";
+import Whiteboard from "@/component/whiteboard";
 import React, { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 
@@ -40,6 +41,7 @@ export default function Home() {
         }}
         onDuration={(duration) => console.log(duration)}
       />
+      <Whiteboard />
       <SeekBar
         currentInSec={currentInSec}
         durationInSec={durationInSec}
